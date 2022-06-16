@@ -1,0 +1,204 @@
+@font-face {
+    font-family: 'military';
+    src: url(../fonts/Capture\ it.ttf) format('truetype');
+}
+
+* {
+    color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-image: url(../imagens/backgrounds/black_background.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#corpo {
+    font-family: arial;
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: justify;
+    align-items: baseline;
+    margin-bottom: 50px;
+}
+
+#corpo h1,
+h2 {
+    text-align: center;
+}
+
+#corpo h2 {
+    font-family: 'military';
+    font-size: 40px;
+}
+
+#corpo p {
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+#corpo h1 {
+    font-family: 'military';
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+#corpo img {
+    width: 800px;
+    margin: 0 auto;
+    display: block;
+}
+
+#cabecalho {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.navegacao {
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(0, 0, 0);
+    font-family: 'military';
+    text-align: center;
+    border-radius: 0px 0px 100px 100px;
+}
+
+#cabecalho .navegacao {
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#cabecalho .navegacao nav li {
+    display: inline-block;
+}
+
+#cabecalho nav li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 25px 50px;
+    transition: all 0.2s linear;
+}
+
+#cabecalho nav li a:hover {
+    background-color: rgb(220, 220, 220);
+    transition: 0.3s all linear;
+    color: rgb(0, 0, 0);
+}
+
+.historia-texto h2 {
+    font-family: 'military';
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+.texto-paragrafo p {
+    font-size: 15pt;
+}
+
+.slider {
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#corpo #imagens-seguranca img {
+    max-width: 300px;
+    max-height: 300px;
+    margin: 0 auto;
+}
+
+#corpo #imagens-seguranca {
+    text-align: center;
+}
+
+.texto-paragrafo a {
+    text-decoration: underline;
+}
+
+.texto-paragrafo a:hover {
+    color: rgb(64, 64, 255);
+}
+
+#videos iframe {
+    width: 95%;
+    height: 100%;
+    aspect-ratio: 16 / 9;
+    margin: 0 auto;
+    display: inline-block;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+
+#videos #galeria-videos {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 30px;
+    margin-top: 50px;
+}
+
+#videos iframe:hover {
+    transform: scale(1.1);
+}
+
+.vermelho {
+    color: red;
+    font-weight: bold;
+}
+
+.laranja {
+    color: rgb(228, 148, 0);
+    font-weight: bold;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 30px;
+
+}
+
+#grid h2 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#grid p {
+    font-size: 14pt;
+    text-align: justify;
+    padding: 10px;
+}
+
+#grid .grid-seguranca {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+#rodape {
+    background-color: rgb(0, 0, 0);
+    padding: 30px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#rodape address {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+#rodape address a {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+
+#rodape address a:hover {
+    text-decoration: underline;
+    color: rgb(64, 64, 255);
+}
